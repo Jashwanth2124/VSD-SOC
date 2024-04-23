@@ -1,0 +1,26 @@
+#  SKY130_D2_SK3 - Cell design and characterization Flows
+##  Topics to be covered
+**--> Inputs for cell design flow**   
+**--> Circuit design step**  
+**--> Layout design step**    
+**--> Typical characterization flow**    
+
+  **CELL DESIGN FLOW**
+![image](/DAY2/assets/sk6.png)
+There are various functionalities for each cell, depending on the drive strength. Bigger the drive strength bigger the size.
+![image](/DAY2/assets/sk7.png)
+
+**Design Steps**
+![image](/DAY2/assets/sk8.png)
+
+**Layout Design**
+
+Layout Design is based on DRC(Design Rule Checking) 
+![image](/DAY2/assets/sk9.png)
+
+Typical Flow of Inverter design is as follows.
+ ![image](/DAY2/assets/sk10.png)
+
+
+ Characterization Flow using GUNA software
+ ![image](/DAY2/assets/sk11.png)

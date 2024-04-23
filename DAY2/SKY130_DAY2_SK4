@@ -1,0 +1,24 @@
+#  SKY130_D2_SK4 - General Timing Characterization Parameters
+##  Topics to be covered
+**--> Timing Threshold Definitions**   
+**--> Propgation delay and Transition time**
+
+![image](/DAY2/assets/sk12.png)
+
+**Propogation Delay**  
+The time difference between when the transitional input reaches 50% of its final value and when the output reaches 50% of its final value.   
+Dealy = output time threshold - input time threshold
+
+![image](/DAY2/assets/sk13.png)
+
+![image](/DAY2/assets/sk15.png)
+Negative delays are not the expected results.
+
+![image](/DAY2/assets/sk14.png)
+
+
+
+**Transition Time**
+
+Transition time is the time caluculated as 20% of VDD(as low) and 80% of VDD (as high)  
+![image](/DAY2/assets/sk16.png)

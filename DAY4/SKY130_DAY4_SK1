@@ -1,0 +1,25 @@
+#  SKY130_D4_SK1 -Timing modelling using delay tables
+##  Topics to be covered
+**--> Lab steps to convert grid info to track info**   
+**--> Lab steps to convert magic layout to std cell LEF**  
+**--> Introduction to timing libs and steps to include new cell in synthesis**    
+**--> Introduction to delay tables**    
+**--> delay table usage part 1**    
+**--> delay table usage part 2**    
+**--> Lab steps to configure synthesis settings to fix slack and include vsdinv**   
+
+
+## Lab steps to convert grid info to track info
+![image](/DAY4/assets/sk1.png) 
+![image](/DAY4/assets/sk2.png)
+![image](/DAY4/assets/sk3.png)
+![image](/DAY4/assets/sk4.png)
+![image](/DAY4/assets/sk5.png)
+![image](/DAY4/assets/sk6.png)
+![image](/DAY4/assets/sk7.png)
+![image](/DAY4/assets/sk8.png)
+![image](/DAY4/assets/sk9.png)
+![image](/DAY4/assets/sk10.png)
+![image](/DAY4/assets/sk11.png)
+![image](/DAY4/assets/sk12.png)
+![image](/DAY4/assets/ak13.png)

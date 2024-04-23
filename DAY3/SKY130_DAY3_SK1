@@ -1,0 +1,61 @@
+#  SKY130_D3_SK1 - Labs for CMOS inverter ngspice simulations
+##  Topics to be covered
+**--> IO placer revision**   
+**--> SPICE deck creation for CMOS**  
+**--> SPICE simulation lab for CMOS inverter**    
+**--> Switching threshold Vm**    
+**--> Static and dynamic simulation of CMOS inverter**    
+**--> Lab steps to git clone vsdstdcelldesign**    
+
+## IO placer revision
+There are 4 stratergies that supported by IO placer to change the IO ports placement. IO placer is one of te opensource EDA tool to place the IO's around the core area.
+![image](/DAY3/assets/sk40.png)
+![image](/DAY3/assets/sk41.png)
+
+## SPICE deck creation for CMOS
+
+![image](/DAY3/assets/sk1.png)
+
+Name the Nodes after identifying them.
+![image](/DAY3/assets/sk2.png)
+
+
+![image](/DAY3/assets/sk3.png)
+
+![image](/DAY3/assets/sk4.png)
+
+## SPICE simulation lab for CMOS inverter
+The steps to follow for SPICE simulation   
+1. Go to ngspice.   
+2. change the directory (where the related files kept).  
+3. Source the circuit file. it says the now the circuit is present in the ngspice simulator.  
+4. To execute the circuit, the command is run.  
+5. Give command setplot --> it will show which plots are currently available in the simulator.   
+6. Select the plot. Give command name as that plot name.    
+7. Give display command to see which nodes are available.     
+8. To plot the graph give command plot out vs in.   
+9. We can see the plot for above inputs. In this the width of both PMOS &NMOS is same.  
+![image](/DAY3/assets/sk5.png)
+
+The width of Pmos is bigger than Nmos by 2.5 times here is the graph 
+
+![image](/DAY3/assets/sk6.png)
+
+## Switching threshold Vm
+   
+![image](/DAY3/assets/sk7.png)
+![image](/DAY3/assets/sk8.png)
+![image](/DAY3/assets/sk9.png)
+
+
+## Static and dynamic simulation of CMOS inverter
+![image](/DAY3/assets/sk10.png) 
+![image](/DAY3/assets/sk11.png)
+
+
+## Lab steps to git clone vsdstdcelldesign
+
+To clone the gitlink the command used here is,  
+/Desktop/work/tools/openlane_working_dir/openlane$ git clone https://github.com/nickson-jose/vsdstdcelldesign.git   
+
+![image](/DAY3/assets/sk45.png)

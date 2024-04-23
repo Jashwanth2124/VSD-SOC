@@ -1,0 +1,56 @@
+#  SKY130_D3_SK2 - Inception of Layout CMOS fabrication process
+##  Topics to be covered
+**--> Create Active regions**   
+**--> Formation of N-well and P-well**  
+**--> Formation of Gate terminal**    
+**--> Lightly doped drain (LDD) formation**    
+**--> Source-Drain formation**    
+**--> Local interconnect formation**    
+**--> Higher level metal formation**   
+**--> Lab introduction to Sky130 basic layers layout and LEF using inverter** 
+**--> Lab steps to create std cell layout and extract spice netlist**
+
+## Fabrication steps for CMOS
+
+**Substrate** --> On which we fabricate entire layout/design.   
+Here we are selecting the p-type silicon substrate with high resistivity, low doping level compared to well doping.   
+**Doping** --> It is a process of adding a impurity to a p-type substrate.  
+
+![image](/DAY3/assets/sk12.png)
+![image](/DAY3/assets/sk13.png)
+![image](/DAY3/assets/sk14.png)
+![image](/DAY3/assets/sk15.png)
+![image](/DAY3/assets/sk16.png)
+![image](/DAY3/assets/sk17.png)
+![image](/DAY3/assets/sk18.png)
+![image](/DAY3/assets/sk19.png)
+![image](/DAY3/assets/sk20.png)
+![image](/DAY3/assets/sk21.png)
+![image](/DAY3/assets/sk22.png)
+![image](/DAY3/assets/sk23.png)
+![image](/DAY3/assets/sk24.png)
+![image](/DAY3/assets/sk25.png)
+![image](/DAY3/assets/sk26.png)
+![image](/DAY3/assets/sk27.png)
+![image](/DAY3/assets/sk28.png)
+![image](/DAY3/assets/sk29.png)
+![image](/DAY3/assets/sk30.png)
+![image](/DAY3/assets/sk31.png)
+![image](/DAY3/assets/sk32.png)
+![image](/DAY3/assets/sk33.png)
+![image](/DAY3/assets/sk34.png)
+![image](/DAY3/assets/sk35.png)
+![image](/DAY3/assets/sk36.png)
+![image](/DAY3/assets/sk37.png)
+![image](/DAY3/assets/sk38.png)
+![image](/DAY3/assets/sk39.png)
+
+
+
+
+
+
+
+
+
+

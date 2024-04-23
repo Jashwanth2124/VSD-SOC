@@ -1,0 +1,16 @@
+#  SKY130_D4_SK2 -Timing analysis with ideal clocks using openSTA
+##  Topics to be covered
+**--> Setup timing analysis and introduction to flip-flop setup time**   
+**--> Introduction to clock jitter and uncertainity**  
+**--> Lab steps to configure openSTA for post-synth timing analysis**    
+**--> Lab steps to optimize synthesis to reduce setup violations**    
+**--> Lab steps to do basic timing ECO**    
+
+## Setup timing analysis and introduction to flip-flop setup time
+![image](/DAY4/assets/sk13.png)
+![image](/DAY4/assets/sk15.png)
+![image](/DAY4/assets/sk16.png)
+![image](/DAY4/assets/sk17.png)
+![image](/DAY4/assets/sk18.png)
+![image](/DAY4/assets/sk19.png)
+![image](/DAY4/assets/sk20.png)

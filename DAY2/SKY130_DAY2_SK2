@@ -1,0 +1,50 @@
+#  SKY130_D2_SK2 - Library Binding and placement
+##  Topics to be covered
+**--> Netlist binding and initial place design**   
+**--> Optimize placing using estimate wirelength and capacitance**  
+**--> Final placement optimization**    
+**--> Need for libraries and characterization**    
+**--> Congestion aware placement using RePLAce**    
+
+
+## Netlist binding and initial place design
+ ![image](/DAY2/assets/sk2%201.png.png)
+
+
+## Optimize placing using estimate wirelength and capacitance
+## Final placement optimization
+
+In the placement stage we have to place the cells according to the input and output of the cells. we can see below,
+
+![image](/DAY2/assets/sk2.png)
+   
+
+Here we can see how we place cells and inserting buffers and how we connect the input to the output.  
+![image](/DAY2/assets/sk3.png)
+
+
+## Need for libraries and characterization
+
+Logic Synthesis -->Floor Planning --> Placement --> Clock Tree Synthesis --> Routing
+![image](/DAY2/assets/sk4.png)
+
+
+For every stage of physical design the common thing is across all stages is Gates or cells. we can see here types of cells or gates.
+
+![image](/DAY2/assets/sk5.png) 
+
+1.All cells information are available in the library.   
+2.Shapes & Size of cells.    
+3.Timing and delay information of the cells.    
+
+ 
+Global placement main goal is reduce wirelength, In openlane we use HPWL (Half parameter wirelenth), reduction of HPWL is main goal in openlane.   
+![image](/DAY2/assets/sk17(magicfloorplan).png)
+
+Placement.def    
+![image](/DAY2/assets/sk19(magicplacement).png)
+
+![image](/DAY2/assets/sk18(magictkonfloorplan).png)
+
+
+placement ensures that standard cells are properly placed on standard cells rows.
